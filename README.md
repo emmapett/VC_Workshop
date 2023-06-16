@@ -104,17 +104,11 @@ The file structure of this repository is as follows:
 ```         
 VC workshop
 |
-|--- dat  (To store input datasets; must NEVER be checked-in to Github)
-|
-|--- doc  (To store important documentation of the project)
-|
-|--- R    (R functions created for this project live here)
+|--- Additional_functions    (R functions created for this project live here)
 |
 |--- renv (System library necesssary for `renv` to work. DON'T TOUCH)
 |
-|--- src  (Source scripts that implement the main processes)
-|
-|--- www  (Project assets, e.g., images, bibliography files, etc.)
+|--- Analysis script  (Source scripts that implement the main processes)
 ```
 
 Use the folders as indicated to store the different files and generate the
