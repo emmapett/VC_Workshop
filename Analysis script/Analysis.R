@@ -64,11 +64,9 @@ study_data <- study_data |>
 
 ## Create descriptive statistics table:
 descriptive_table <- study_data |> tbl_summary(include = -seqno)
-descriptive_table |> as_gt() |> gtsave(DESC_TAB_OUT_PATH)
 
 ## Create contingency table of the histologies:
 contingency_table <- study_data |> tbl_cross(row = instit, col = histol)
-contingency_table |> as_gt() |> gtsave(CONT_TAB_OUT_PATH)
 
 # Statistical modeling and inference: ----
 
